@@ -5,16 +5,15 @@ import com.xg.demo.api.ResponseCode;
 import com.xg.demo.api.ResponseServer;
 import com.xg.demo.mapper.HotelRepository;
 import com.xg.demo.model.Hotels;
-import com.xg.demo.model.HotelsRequest;
+import com.xg.demo.model.request.HotelsRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.HttpResponse;
-import org.apache.http.util.EntityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Slf4j
@@ -41,7 +40,13 @@ public class HotelService {
         return ResponseServer.createBySuccess(200,ResponseCode.SUCCESS.getDesc(),save);
     }
 
-    public ResponseServer getHotels(String ip) {
+    public ResponseServer getHotels() {
+        List<Hotels> all = hotelRepository.findAll();
+        return ResponseServer.createBySuccess(200,"成功",all);
+    }
+
+    /*public ResponseServer getHotels(String ip) {
+
         String host = "https://ips.market.alicloudapi.com";
         String path = "/iplocaltion";
         String method = "GET";
@@ -50,17 +55,14 @@ public class HotelService {
         //最后在header中的格式(中间是英文空格)为Authorization:APPCODE 83359fd73fe94948385f570e3c139105
         headers.put("Authorization", "APPCODE " + appcode);
         Map<String, String> querys = new HashMap<String, String>();
-        querys.put("ip", "110.191.179.171");
-
+        querys.put("ip",ip);
         try {
-
             HttpResponse response = HttpUtils.doGet(host, path, method, headers, querys);
-
-            return null;
-            /*  System.out.println(EntityUtils.toString(response.getEntity()));*/
+            return ResponseServer.createBySuccess(response);
+            *//*  System.out.println(EntityUtils.toString(response.getEntity()));*//*
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
-    }
+    }*/
 }

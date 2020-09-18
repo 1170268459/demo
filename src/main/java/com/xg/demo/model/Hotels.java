@@ -3,6 +3,7 @@ package com.xg.demo.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Data
 @Entity
@@ -33,4 +34,7 @@ public class Hotels {
 
     @Column(name = "phone")
     private String phone;
+
+    @Column(name = "money")
+    private BigDecimal money;
 }

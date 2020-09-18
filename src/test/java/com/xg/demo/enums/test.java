@@ -1,25 +1,16 @@
 package com.xg.demo.enums;
 
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class test {
     public static void main(String[] args) {
-        StringBuffer user= new StringBuffer();
-        user.append("454545"+",");
-        user.append("cc"+",");
-        user.append("xx"+",");
-        user.append("yy"+",");
-        user.append("yy"+",");
-        user.append("yy"+",");
-        user.append("yy"+",");
-        user.append("yy"+",");
-        user.append("yy"+",");
+       long m=1;
 
-        System.out.println(user.substring(0,user.lastIndexOf(",")));
-        Object[] sss={};
-        sss= new Object[]{"werer"};
-        System.out.println(sss.length);
+        DecimalFormat decimalFormat = new DecimalFormat("00000");
+        String format = decimalFormat.format(m);
+        System.out.println(format);
 
 
     }

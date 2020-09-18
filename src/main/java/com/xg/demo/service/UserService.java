@@ -6,14 +6,12 @@ import com.xg.demo.Utils.Md5Utils;
 import com.xg.demo.api.ResponseCode;
 import com.xg.demo.api.ResponseServer;
 import com.xg.demo.mapper.UsersRepository;
-import com.xg.demo.model.LoginByPasswordRequest;
+import com.xg.demo.model.request.LoginByPasswordRequest;
 import com.xg.demo.model.SystemUser;
 import com.xg.demo.model.Users;
 import com.xg.demo.redis.RedisUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -71,4 +69,5 @@ public class UserService {
             throw new BusinessException(ErrorType.USER_NOT_LOGIN);
         }
     }
+
 }
