@@ -4,9 +4,14 @@ import java.util.Calendar;
 
 public class Main {
     public static void swap(CarWrapper cw1,CarWrapper cw2){
+
+        System.out.println(System.identityHashCode(cw1.c));
+        System.out.println(System.identityHashCode(cw2.c));
         Car temp=cw1.c;
         cw1.c=cw2.c;
         cw2.c=temp;
+        System.out.println(System.identityHashCode(cw1.c));
+        System.out.println(System.identityHashCode(cw2.c));
     }
 
     public static void main(String[] args) {

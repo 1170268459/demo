@@ -55,8 +55,8 @@
         <option value="HTML File" />
         <option value="Kotlin File" />
         <option value="Aspect" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -148,13 +148,13 @@
       <recent name="E:\rediste\src\main\java\com\xg\demo\aop" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Ministers">
-    <configuration name="Constructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dome13.Constructors" />
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dome10.Main" />
       <module name="rediste" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dome13.*" />
+          <option name="PATTERN" value="dome10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,25 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dome14.FactoryType" />
+    <configuration name="MinisterFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.singlecase.MinisterFactory" />
       <module name="rediste" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dome14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Minister" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.dome1.Minister" />
-      <module name="rediste" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.dome1.*" />
+          <option name="PATTERN" value="pattern.singlecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +176,11 @@
       </method>
     </configuration>
     <configuration name="Ministers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.dome1.Ministers" />
+      <option name="MAIN_CLASS_NAME" value="pattern.singlecase.Ministers" />
       <module name="rediste" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.dome1.*" />
+          <option name="PATTERN" value="pattern.singlecase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +188,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dome12.ThreadPoolSize" />
+    <configuration name="NvWa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.factorymethod.NvWa" />
       <module name="rediste" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dome12.*" />
+          <option name="PATTERN" value="pattern.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.factorymethod.ProductMain" />
+      <module name="rediste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.factorymethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,19 +226,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="应用程序.ThreadPoolSize" />
-      <item itemvalue="应用程序.Constructors" />
-      <item itemvalue="应用程序.FactoryType" />
-      <item itemvalue="应用程序.Minister" />
       <item itemvalue="应用程序.Ministers" />
+      <item itemvalue="应用程序.NvWa" />
+      <item itemvalue="应用程序.MinisterFactory" />
+      <item itemvalue="应用程序.ProductMain" />
+      <item itemvalue="应用程序.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.ProductMain" />
+        <item itemvalue="应用程序.MinisterFactory" />
+        <item itemvalue="应用程序.NvWa" />
         <item itemvalue="应用程序.Ministers" />
-        <item itemvalue="应用程序.Minister" />
-        <item itemvalue="应用程序.FactoryType" />
-        <item itemvalue="应用程序.Constructors" />
-        <item itemvalue="应用程序.ThreadPoolSize" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +299,7 @@
       <workItem from="1600997159803" duration="11501000" />
       <workItem from="1601458422778" duration="608000" />
       <workItem from="1602206005668" duration="12436000" />
-      <workItem from="1602579891212" duration="8943000" />
+      <workItem from="1602579891212" duration="17403000" />
     </task>
     <servers />
   </component>
@@ -312,10 +312,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1134" y="305" key="#com.intellij.ide.util.MemberChooser" timestamp="1602581063799">
+    <state x="1134" y="305" key="#com.intellij.ide.util.MemberChooser" timestamp="1602665738392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1134" y="305" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602581063799" />
+    <state x="1134" y="305" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602665738392" />
     <state x="619" y="408" key="#xdebugger.evaluate" timestamp="1600658512853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -328,38 +328,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598495425272" />
-    <state width="971" height="291" key="GridCell.Tab.0.bottom" timestamp="1602658657919">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom" timestamp="1602669697233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="971" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602658657919" />
-    <state width="971" height="291" key="GridCell.Tab.0.center" timestamp="1602658657919">
+    <state width="1877" height="360" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602669697233" />
+    <state width="1877" height="360" key="GridCell.Tab.0.center" timestamp="1602669697233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="971" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602658657919" />
-    <state width="971" height="291" key="GridCell.Tab.0.left" timestamp="1602658657919">
+    <state width="1877" height="360" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602669697233" />
+    <state width="1877" height="360" key="GridCell.Tab.0.left" timestamp="1602669697233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="971" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602658657919" />
-    <state width="971" height="291" key="GridCell.Tab.0.right" timestamp="1602658657919">
+    <state width="1877" height="360" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602669697233" />
+    <state width="1877" height="360" key="GridCell.Tab.0.right" timestamp="1602669697233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="971" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602658657919" />
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom" timestamp="1602658407513">
+    <state width="1877" height="360" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602669697233" />
+    <state width="971" height="321" key="GridCell.Tab.1.bottom" timestamp="1602669373130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602658407513" />
-    <state width="1877" height="400" key="GridCell.Tab.1.center" timestamp="1602658407513">
+    <state width="971" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602669373130" />
+    <state width="971" height="321" key="GridCell.Tab.1.center" timestamp="1602669373130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602658407513" />
-    <state width="1877" height="400" key="GridCell.Tab.1.left" timestamp="1602658407513">
+    <state width="971" height="321" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602669373130" />
+    <state width="971" height="321" key="GridCell.Tab.1.left" timestamp="1602669373130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602658407513" />
-    <state width="1877" height="400" key="GridCell.Tab.1.right" timestamp="1602658407513">
+    <state width="971" height="321" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602669373130" />
+    <state width="971" height="321" key="GridCell.Tab.1.right" timestamp="1602669373130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="400" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602658407513" />
+    <state width="971" height="321" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602669373130" />
     <state width="1877" height="204" key="GridCell.Tab.2.bottom" timestamp="1601029822520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,10 +388,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601023915412" />
-    <state x="113" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1602648796521">
+    <state x="113" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1602662474733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602648796521" />
+    <state x="113" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602662474733" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -423,11 +423,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dome6/Horse.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dome6/Horse.java</url>
           <line>29</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -455,11 +450,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/com/xg/demo/enums/test.java</url>
           <line>85</line>
           <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dome14/FactoryType.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
